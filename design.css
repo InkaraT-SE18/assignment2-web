@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Inter,sans-serif;
+    color: #dddddd;
+}
+
+header{
+    margin: 0;
+    background: url('images2/1page.png');
+    background-size: cover;
+    height: 750px;
+}
+nav {
+    text-align: left;
+    padding: 20px;
+    font-family: Inter,sans-serif;
+}
+.header-h1{
+    font-family: Mak, cursive;
+    font-size: 70px;
+    padding-left: 200px;
+    padding-top: 250px;
+}
+.head-h2{
+    font-family: "Island Moments", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    padding-left: 350px;
+}
+.header-menu {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.header-menu li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.header-menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.header-menu a:hover {
+    color: #ddd;
+}
+.social-media {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.social-icon {
+    margin-right: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+.social-icon i {
+    font-size: 24px;
+}
+main{
+    background-color: black;
+}
+.content {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.main-h1{
+    font-family: Mak,cursive;
+    font-size: 40px;
+    text-align: center;
+}
+.main-h2{
+    font-family: Inter, sans-serif;
+    font-size: 25px;
+    text-align: left;
+    padding-top: 70px;
+    padding-left: 20px;
+    font-weight: lighter;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+.img1{
+    width: 560px;
+    height: 100vh;
+    object-fit: cover;
+}
+.btn{
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #fff;
+    font-size: 25px;
+    padding: 10px 20px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+footer{
+    font-size: 30px;
+    font-family: Mak,sans-serif;
+    color: white;
+    background-color: #221C13;
+
+}
+
