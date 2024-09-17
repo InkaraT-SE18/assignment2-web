@@ -102,17 +102,93 @@ main{
 .btn{
     background-color: #000;
     color: #fff;
+    text-decoration: none;
     border: 2px solid #fff;
     font-size: 25px;
     padding: 10px 20px;
     margin-left: 20px;
     margin-top: 50px;
 }
-footer{
+.fr-footer{
     font-size: 30px;
     font-family: Mak,sans-serif;
     color: white;
     background-color: #221C13;
+}
+.third-page{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
 
+ }
+h3{
+    font-family: Mak, sans-serif;
+    font-size: 55px;
+    text-align: center;
+    padding-top: 25px;
+
+  }
+h4
+{
+    font-family: Inter, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+.third-text{
+    padding-bottom: 20px;
+}
+.third-img-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+.block4{
+     margin: 0;
+    background: url('images2/4фрейм.png');
+    background-size: cover;
+    height: 750px;
+    position: relative;
 }
 
+.form-container {
+    padding: 20px;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    top: 50%;
+    right: 100px;
+    transform: translateY(-50%);
+    position: absolute;
+    }
+
+input[type="text"], input[type="tel"],.btn2
+{
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: white;
+}
+.btn2{
+    color: white;
+    font-weight: bold;
+     background-color: #78584F;
+}
+h4{
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.second-footer{
+    font-size: 30px;
+    font-family: Mak,sans-serif;
+    color: white;
+    background-color: #221C13;
+}
+.btn a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
